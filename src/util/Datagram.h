@@ -38,8 +38,8 @@ class Datagram
 {
   protected:
     uint8_t* buf;
-    dgsize_t buf_cap;
-    dgsize_t buf_offset;
+    size_t buf_cap;
+    size_t buf_offset;
 
     void check_add_length(dgsize_t len)
     {
